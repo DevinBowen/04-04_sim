@@ -1,28 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,500,700,800,900|Open+Sans+Condensed:300,700|Pacifico');
 .App {
-  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  /* font-family: 'Alegreya', serif; */
 }
+.home {
+  font-family: 'Pacifico', cursive;
+  background-image: url("./assets/katie-smith-104748.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.welcome {
+  background: rgba(111, 147, 76, 0.808);
+  display: flex;
+  width: 75%;
+  justify-content: space-around;
+  padding: 25px;
+  margin-left: 12.5%;
 }
-
-.App-title {
-  font-size: 1.5em;
+.welcome img {
+  width: 50%;
+  margin: 10px;
 }
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.welcome_left {
+  display: flex;
+  flex-direction: column;
 }
