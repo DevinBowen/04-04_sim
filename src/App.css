@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya:400,500,700,800,900|Open+Sans+Condensed:300,700|Pacifico');
+
 .App {
   font-family: 'Open Sans Condensed', sans-serif;
   /* font-family: 'Alegreya', serif; */
@@ -28,4 +29,41 @@
 .welcome_left {
   display: flex;
   flex-direction: column;
+}
+/* ---menu--- */
+.menu {
+  /* 23F */
+  background-image: url('./assets/herson-rodriguez-96102.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.menu_left {
+  width: 12%;
+  height: 100vh;
+  background: rgba(111, 147, 76, 0.808);
+  padding: 10px;
+  font-family: 'Pacifico', cursive;
+  color: #464140;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.menu_left img {
+  width: 75px;
+}
+.menu_right {
+  background: #e5b742bd;
+  height: 75%;
+  width: 75%;
+  margin: 5%;
+}
+/* 22C-1 */
+#menu_main {
+  display: flex;
+  flex-direction: row;
 }
