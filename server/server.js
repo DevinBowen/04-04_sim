@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 require('dotenv').config();
 
 
-
+// 74C
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
@@ -15,7 +15,10 @@ app.use(cors());
 // ---endpoints---
 
 // login
+// 74D-1
 app.get('/api/getLogin', controller.getLogin);
+// 76C
+app.get('/api/getAllUserInfo', controller.getAllUserInfo);
 
 
 
